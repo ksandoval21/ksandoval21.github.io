@@ -7,6 +7,6 @@ I got inspiration from different portfolios I have viewed. I want my portfolio t
  - Whoever visits my page should be able to to see I am full stack developer.
  - Whoever visits my page should be able to see I can see program in Python, Html, Css, SQL. 
 ## Tuesday-Thursday Daily Goals
- Tuesday: I will have the body of my website complete as well as the NavBar with Bootstrap. 
- Wednesday: I will add CSS to my project to improve the appearance of my site.
- Thursday: I will add media queries to adjust how different users see the page. 
+ -Tuesday: I will have the body of my website complete as well as the NavBar with Bootstrap. 
+ -Wednesday: I will add CSS to my project to improve the appearance of my site.
+ -Thursday: I will add media queries to adjust how different users see the page. 
