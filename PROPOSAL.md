@@ -1,6 +1,6 @@
 # Portfolio Project Proposal 
 ## Project Description and Motivation
-My motivation for creating my portfolio is to showcase my abilities in software development. My portfolio will display personal information about me, projects I have built in the past, and contact information. 
+My motivation for creating my portfolio is to showcase my abilities in software development. My portfolio will display a picture of myself, personal information about me, projects I have built in the past, and contact information.
 ## Prior Art
 I got inspiration from different portfolios I have viewed. I want my portfolio to express my personality and to give people who view is a sense of who I am. I took inspiration from Tony Gines with how his navbar was position and how much white space there was. I also like Ali Spittel's portfolio with how simple yet colorful her page was. 
 ## Core User Workflows
