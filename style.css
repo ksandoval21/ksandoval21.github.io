@@ -1,0 +1,43 @@
+body {
+    max-width: 90vw;
+    max-height: 100vw;
+    margin: auto;
+    padding: 10%;
+    background-color: #ffeedb;
+}
+h1{
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+.border {
+    width: 80px;
+    height: 2px;
+    margin-bottom: 24px;
+    background-color: #a0cfd3;
+}
+li {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding: 2%;
+}
+.home-list-link {
+    display: inline-block;
+    color: black;
+}
+a:link {
+  color: #084108;
+  text-decoration: none;
+  font-size: 23px;
+}
+a:hover {
+  color: hotpink;
+}
+img {
+    position: relative;
+    top: -450px;
+    left: 600px;
+}
