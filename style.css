@@ -5,6 +5,7 @@ body {
     margin: auto;
     padding: 5%;
     background-color: #ffeedb;
+    font-family: Poppins, sans-serif;
 }
 h1{
     font-size: 45px;
@@ -12,6 +13,9 @@ h1{
     color: #a0cfd3;
     font-family: 'Titan One', cursive;
     font-family: 'Titillium Web';
+}
+h1:hover {
+    color: hotpink;
 }
 .border {
     width: 80px;
@@ -28,24 +32,29 @@ li {
     margin-inline-end: 0px;
     padding: 2%;
 }
-.home-list-link {
+.home-list-item {
     display: inline-block;
-    color: black;
+    color: #ada7d1; 
+    text-shadow: 1px 1px 1px  #a0cfd3;
+    transition: all 200ms linear;
+}
+.home-list-item:hover {
+    transform: translateX(1rem);
 }
 a:link {
-  color: #084108;
+  color: black;
   text-decoration: none;
   font-size: 23px;
+
 }
 a:hover {
   color: hotpink;
+  transform: translateY(1rem)
 }
-img {
-    position: relative;
-    top: -450px;
-    left: 600px;
-    float: left;
-}
+  img {
+    position: relative; 
+    left: 150px;
+ } 
 .icons {
     font-size: 2.4rem;
     text-shadow: 2px 2px 1px  #a0cfd3;
@@ -65,12 +74,45 @@ img {
     border-radius: .25rem;
     position: relative;
     left:-30px;
+    transition-duration: 100ms;
 }
 p {
-    font-size: 15px;
-    width: 1100px
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: center;
 }
-.sections {
-    float:left;
-    padding: 4%;
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    
+}
+.sections{
+    padding: 5%;
+}
+.cnter{
+    text-align: center;
+}
+h2 {
+    font-size: 35px;
+}
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 4rem;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-bottom: 6rem;
+}
+.projects-section {
+  text-align: center;
+  padding: 10rem 2rem;
+  background: #BF87EA;
+}
+
+.projects-section-header {
+  max-width: 640px;
+  margin: 0 auto 6rem auto;
+  border-bottom: 0.2rem solid var(--main-white);
 }
