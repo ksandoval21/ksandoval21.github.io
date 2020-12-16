@@ -37,6 +37,8 @@ li {
     color: #ada7d1; 
     text-shadow: 1px 1px 1px  #a0cfd3;
     transition: all 200ms linear;
+    position: sticky;
+    top: 0;
 }
 .home-list-item:hover {
     transform: translateX(1rem);
@@ -51,10 +53,6 @@ a:hover {
   color: hotpink;
   transform: translateY(1rem)
 }
-  img {
-    position: relative; 
-    left: 150px;
- } 
 .icons {
     font-size: 2.4rem;
     text-shadow: 2px 2px 1px  #a0cfd3;
@@ -95,68 +93,40 @@ p {
 }
 h2 {
     font-size: 35px;
+    padding: 2%;
 }
-.projects-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  grid-gap: 4rem;
-  width: 200px;
-  max-width: 300px;
-  margin: 0 auto;
-  margin-bottom: 6rem;
+h4 {
+  font-size: 30px;
 }
-.projects-section {
+
+.skills {
   text-align: center;
-  padding: 10rem 2rem;
-  background: #BF87EA;
+  word-spacing: 10px;
+  padding: 1%;
 }
-
-.projects-section-header {
-  max-width: 300px;
-  margin: 0 auto 6rem auto;
-  border-bottom: 0.2rem solid var(--main-white);
+.main-img {
+  position: relative;
+  left: 100px;
 }
-.projects-section {
-  text-align: center;
-  padding: 10rem 2rem;
+footer {
+  padding: 10%;
 }
-.projects-section-header {
-  max-width: 300px;
-  margin: 0 auto 6rem auto;
-  border-bottom: 0.2rem solid var(--main-pink);
+.headings {
+  margin-left: 90px ;
 }
-.projects-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  grid-gap: 4rem;
-  width: 100%;
-  max-width: 500px;
-  margin: 0 auto;
-  margin-bottom: 6rem;
+.content {
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
 }
-.project {
-  background: #FAC9C7;
-  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-  border-radius: 2px;
+.article {
+  flex-grow: 1;
+  padding: 3rem;
+  margin: 1rem;
+  min-width: 500px;
 }
-.code {
-  color: #260403;
-  transition: color 0.3s ease-out;
+img {
+  position: relative;
+  left: 200px;
+  padding: 0%;
 }
-.project:hover .code {
-  color: #FF7F50;
-}
-.project-image {
-  height: calc(100% - 6.8rem);
-  width: 300px;
-  object-fit: cover;
-}
-.project-title {
-  font-size: 2rem;
-  padding: 2rem 0.5rem;
-}
-
-
-
-
-
