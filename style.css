@@ -35,6 +35,7 @@ li {
 .home-list-item {
     display: inline-block;
     color: #ada7d1; 
+    
     text-shadow: 1px 1px 1px  #a0cfd3;
     transition: all 200ms linear;
     position: sticky;
