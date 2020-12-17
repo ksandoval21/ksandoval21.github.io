@@ -3,16 +3,17 @@ body {
     max-width: 90vw;
     max-height: 100vw;
     margin: auto;
-    padding: 5%;
+    padding: 4%;
     background-color: #ffeedb;
     font-family: Poppins, sans-serif;
 }
 h1{
-    font-size: 45px;
+    font-size: 50px;
     letter-spacing: 3px;
     color: #a0cfd3;
     font-family: 'Titan One', cursive;
     font-family: 'Titillium Web';
+    font-weight: bold;
 }
 h1:hover {
     color: hotpink;
@@ -86,7 +87,7 @@ p {
     
 }
 .sections{
-    padding: 5%;
+    padding: 2%;
 }
 .cnter{
     text-align: center;
@@ -102,11 +103,13 @@ h4 {
 .skills {
   text-align: center;
   word-spacing: 10px;
-  padding: 1%;
+  position: relative;
+  top: -18px;
 }
 .main-img {
   position: relative;
-  left: 100px;
+  left: 150px;
+  bottom: 10px;
 }
 footer {
   padding: 10%;
@@ -121,12 +124,83 @@ footer {
 }
 .article {
   flex-grow: 1;
-  padding: 3rem;
+  padding: 1rem;
   margin: 1rem;
   min-width: 500px;
 }
 img {
   position: relative;
-  left: 200px;
+  left: 250px;
   padding: 0%;
+}
+h4 {
+  text-align: center;
+}
+.projects-grid p {
+  font-size: 20px;
+  margin: 0;
+}
+.projects-section-header {
+  font-family: "Open Sans";
+  font-size: 30px;
+  max-width: 640px;
+  /* margin: 0 auto 3rem auto; */
+  border-bottom: 0.2rem solid var(#D05353);
+  position: relative;
+  left: 170px;
+}
+.projects-section {
+  text-align: center;
+  padding: 6rem 2rem;
+}
+@media (max-width: 28.75em) {
+  .projects-section-header {
+    font-size: 4rem;
+  }
+}
+/* "Automagic" image grid using no media queries */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 4rem;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  margin-bottom: 6rem;
+}
+@media (max-width: 30.625em) {
+  .projects-section {
+    padding: 4rem 1rem;
+  }
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+  html {
+    margin: auto;
+    padding: 15%;
+  }
+}
+.project {
+  background: #a0cfd3;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+}
+.code {
+  color: #260403;
+  transition: color 0.3s ease-out;
+}
+.project:hover .code {
+  color: #FF7F50;
+}
+.project-image {
+  height: calc(100% - 6.8rem);
+  width: 100%;
+  object-fit: cover;
+}
+/* .project-title {
+  padding: 2rem 0.5rem;
+} */
+img {
+  position: relative;
+  left: -0px;
 }
