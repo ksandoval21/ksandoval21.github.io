@@ -93,9 +93,7 @@ p {
 h2 {
   font-size: 35px;
   padding: 2%;
-}
-h4 {
-  font-size: 30px;
+  color:#77999c;
 }
 
 .skills {
@@ -134,6 +132,8 @@ img {
 }
 h4 {
   text-align: center;
+  font-size: 30px;
+  color: #77999c;
 }
 .projects-grid p {
   font-size: 20px;
@@ -249,3 +249,6 @@ img {
 
   /* Move Projects Grid */
   
+.dev{
+  color: #000000;
+}
