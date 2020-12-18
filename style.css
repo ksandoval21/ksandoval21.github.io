@@ -177,10 +177,10 @@ h4 {
   .projects-grid {
     grid-template-columns: 1fr;
   }
-  html {
+  /* html {
     margin: auto;
     padding: 15%;
-  }
+  } */
 }
 .project {
   background: #a0cfd3;
