@@ -3,7 +3,7 @@ body {
   max-width: 90vw;
   max-height: 100vw;
   margin: auto;
-  padding: 4%;
+  padding: 3%;
   background-color: #ffeedb;
   font-family: Poppins, sans-serif;
 }
@@ -105,8 +105,8 @@ h2 {
 .main-img {
   position: relative;
   left: 150px;
-  bottom: 10px;
-  width: 350px;
+  bottom: -110px;
+  width: 340px;
 }
 footer {
   padding: 6%;
@@ -127,7 +127,7 @@ footer {
 }
 img {
   position: relative;
-  left: 250px;
+  left: 200px;
   padding: 0%;
 }
 h4 {
