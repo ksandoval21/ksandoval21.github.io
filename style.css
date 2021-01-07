@@ -3,7 +3,7 @@ body {
   max-width: 90vw;
   max-height: 100vw;
   margin: auto;
-  padding: 2px;
+  padding-bottom: 2px;
   background-color: #ffeedb;
   font-family: Poppins, sans-serif;
 }
