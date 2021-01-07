@@ -3,9 +3,10 @@ body {
   max-width: 90vw;
   max-height: 100vw;
   margin: auto;
-  padding-bottom: 2px;
+  padding-bottom: 4px;
   background-color: #ffeedb;
   font-family: Poppins, sans-serif;
+
 }
 h1 {
   font-size: 50px;
@@ -83,6 +84,8 @@ p {
   display: flex;
   flex-direction: row;
   align-items: flex-end;
+  position: relative;
+  top: -40px;
 }
 .sections {
   padding: 2%;
