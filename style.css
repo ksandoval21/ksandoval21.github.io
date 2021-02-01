@@ -156,15 +156,15 @@ h4 {
   text-align: center;
   padding: 2%;
 }
-@media (max-width: 28.75em) {
+/* @media (max-width: 28.75em) {
   .projects-section-header {
     font-size: 4rem;
   }
   .sections{
     padding: 10%;
   }
-}
-/* "Automagic" image grid using no media queries */
+} */
+
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -174,7 +174,7 @@ h4 {
   margin: 0 auto;
   margin-bottom: 6rem;
 }
-@media (max-width: 376px) {
+@media (max-width: 599px) {
   .projects-section {
     padding: 200px;
     position: relative;
