@@ -174,17 +174,18 @@ h4 {
   margin: 0 auto;
   margin-bottom: 6rem;
 }
-@media (max-width: 30.625em) {
+@media (max-width: 376px) {
   .projects-section {
-    padding: 4rem 1rem;
+    padding: 200px;
+    position: relative;
+    left: 300px;
   }
   .projects-grid {
     grid-template-columns: 1fr;
+    position: relative;
+    left: -200px;
   }
-  /* html {
-    margin: auto;
-    padding: 15%;
-  } */
+  
 }
 .project {
   background: #a0cfd3;
