@@ -80,6 +80,13 @@ p {
   line-height: 1.6;
   text-align: center;
 }
+.things {
+    position: relative;
+    left: -10px;
+  }
+.dev{
+  color: #000000;
+}
 .container {
   display: flex;
   flex-direction: row;
@@ -156,41 +163,6 @@ h4 {
   text-align: center;
   padding: 2%;
 }
-/* @media (max-width: 28.75em) {
-  .projects-section-header {
-    font-size: 4rem;
-  }
-  .sections{
-    padding: 10%;
-  }
-} */
-
-.projects-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  grid-gap: 4rem;
-  width: 100%;
-  max-width: 900px;
-  margin: 0 auto;
-  margin-bottom: 6rem;
-}
-@media (max-width: 599px) {
-  .projects-section {
-    padding: 200px;
-    position: relative;
-    left: 300px;
-  }
-  .projects-grid {
-    grid-template-columns: 1fr;
-    position: relative;
-    left: -200px;
-  }
-  .contact-section{
-    position: relative;
-    left: 300px;
-  }
-  
-}
 .project {
   background: #a0cfd3;
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
@@ -229,8 +201,41 @@ img {
   flex-wrap: wrap;
   flex-basis: auto;
 }
-@media (max-width: 600px) {
-
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 4rem;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  margin-bottom: 6rem;
+}
+/*  */
+/* Media for phones */
+@media (max-width: 599px) {
+  .projects-section {
+    padding: 200px;
+    position: relative;
+    left: 300px;
+  }
+  .main-img{
+    position: relative;
+    left: 500px;
+  }
+  .projects-grid {
+    grid-template-columns: 1fr;
+    position: relative;
+    left: -200px;
+  }
+  .contact-section{
+    position: relative;
+    left: 300px;
+  }
+  .main-img {
+    position: relative;
+    left: 1000px;
+  }
+  
   .sections {
     position: relative;
     left: 300px
@@ -242,22 +247,16 @@ img {
   p {
     width: 400px;
   }
-  /* .things {
+  .main-img {
     position: relative;
-    left: -10px;
+    left: 30px;
+    top: 230px;
+    width: 340px;
   }
-  .movegrid{
-    position: relative;
-    left: 150px;
-  } */
-}
-.things {
-    position: relative;
-    left: -10px;
+  .skills{
+    font-size: 30px;
   }
-
-  /* Move Projects Grid */
-  
-.dev{
-  color: #000000;
+  .main-img{
+    flex: auto;
+  }
 }
