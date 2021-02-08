@@ -79,6 +79,7 @@ p {
   font-size: 20px;
   line-height: 1.6;
   text-align: center;
+  
 }
 .things {
     position: relative;
@@ -118,6 +119,9 @@ h2 {
   bottom: -110px;
   width: 340px;
   
+}
+.smaller{
+  width: 900px;
 }
 footer {
   padding: 6%;
