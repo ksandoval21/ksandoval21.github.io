@@ -236,7 +236,7 @@ img {
   .projects-section {
     padding: 200px;
     position: relative;
-    left: 300px;
+    left: 350px;
   }
   .main-img{
     position: relative;
@@ -249,7 +249,7 @@ img {
   }
   .contact-section{
     position: relative;
-    left: 300px;
+    left: 350px;
   }
   .main-img {
     position: relative;
@@ -278,5 +278,9 @@ img {
   }
   .main-img{
     flex: auto;
+  }
+  .column {
+    float: left;
+    width: 20%;
   }
 }
