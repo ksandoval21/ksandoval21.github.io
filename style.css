@@ -221,7 +221,11 @@ img {
 }
 .column {
   float: left;
-  width: 8%;
+  width: 7%;
+  position: relative;
+  right: 35px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 /* Clear floats after image containers */
