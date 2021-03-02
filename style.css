@@ -17,7 +17,7 @@ h1 {
   font-weight: bold;
 }
 h1:hover {
-  color: hotpink;
+  color: rgb(218, 159, 188);
 }
 .border {
   width: 80px;
@@ -51,7 +51,7 @@ a:link {
   font-size: 23px;
 }
 a:hover {
-  color: hotpink;
+  color: rgb(216, 27, 118);
   transform: translateY(1rem);
 }
 .icons {
@@ -113,6 +113,10 @@ h2 {
   position: relative;
   top: -18px;
 }
+#skills{
+  color: #77999c;
+  font-size: 20px;
+}
 .main-img {
   position: relative;
   left: 150px;
@@ -160,7 +164,7 @@ h4 {
   font-size: 30px;
   max-width: 640px;
   /* margin: 0 auto 3rem auto; */
-  border-bottom: 0.2rem solid var(#d05353);
+  border-bottom: 0.2rem solid var(rgb(218, 159, 188));
   position: relative;
   left: 170px;
 }
@@ -195,7 +199,7 @@ img {
   left: -10px;
 }
 .projects-section {
-  background: #f6aafd;
+  background: #d6b3da;
   padding-bottom: 0%;
 }
 .lang {
