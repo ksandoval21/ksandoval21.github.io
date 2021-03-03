@@ -150,10 +150,11 @@ img {
   left: 200px;
   padding: 0%;
 }
-h4 {
+h3 {
   text-align: center;
   font-size: 30px;
   color: #77999c;
+  padding-top: 20px;
 }
 .projects-grid p {
   font-size: 20px;
