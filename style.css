@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Titan+One&family=Titillium+Web:wght@200&display=swap");
+* :disabled{
+    overflow-x: hidden; 
+}
 body {
   max-width: 90vw;
   max-height: 100vw;
@@ -6,6 +9,7 @@ body {
   padding-bottom: 4px;
   background-color: #ffeedb;
   font-family: Poppins, sans-serif;
+  overflow: visible;
 
 }
 h1 {
