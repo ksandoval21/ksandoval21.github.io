@@ -13,7 +13,7 @@ body {
 
 }
 h1 {
-  font-size: 50px;
+  font-size: 55px;
   letter-spacing: 3px;
   color: #a0cfd3;
   font-family: "Titan One", cursive;
@@ -80,8 +80,8 @@ a:hover {
   transition-duration: 100ms;
 }
 p {
-  font-size: 20px;
-  line-height: 1.6;
+  font-size: 18px;
+  line-height: 1.8;
   text-align: center;
   
 }
@@ -97,7 +97,7 @@ p {
   flex-direction: row;
   align-items: flex-end;
   position: relative;
-  top: -40px;
+  
 }
 .sections {
   padding: 2%;
@@ -105,10 +105,22 @@ p {
 .cnter {
   text-align: center;
 }
-h2 {
+.languages{
+  text-align: center;
+  line-height: 1.5;
+  word-spacing: 10px;
+}
+.frameworks{
+  text-align: center;
+  line-height: 1.5;
+  word-spacing: 10px;
+}
+#About-Me {
   font-size: 35px;
-  padding: 1%;
+  padding-top: 6%;
   color:#77999c;
+  text-align: center;
+  font-size: 30px;
 }
 
 .skills {
@@ -132,15 +144,11 @@ h2 {
   width: 340px;
   
 }
-.smaller{
-  width: 1100px;
-  padding-bottom: 2%;
-}
 footer {
   padding: 6%;
 }
 .headings {
-  margin-left: 90px;
+  margin-left: 130px;
 }
 .content {
   padding: 1rem;

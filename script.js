@@ -1,4 +1,5 @@
 const contact = document.querySelector("#Contact")
-contact.addEventListener("click", {
-
-}
+const covidTracker = document.getElementById("Covid")
+covidTracker.addEventListener("hover", () => {
+    
+})
