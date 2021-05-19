@@ -143,7 +143,7 @@ p {
   left: 150px;
   bottom: -110px;
   width: 340px;
-  
+  border-radius: 50%;
 }
 footer {
   padding: 6%;
