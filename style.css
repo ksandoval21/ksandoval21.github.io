@@ -12,6 +12,9 @@ body {
   overflow: visible;
 
 }
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+}
 h1 {
   font-size: 55px;
   letter-spacing: 3px;
@@ -99,9 +102,7 @@ p {
   position: relative;
   
 }
-.sections {
-  padding: 2%;
-}
+
 .cnter {
   text-align: center;
 }
@@ -258,20 +259,12 @@ img {
 
 /* Media for phones */
 @media (max-width: 599px) {
-  .projects-section {
-    padding: 200px;
-    position: relative;
-    left: 400px;
-  }
+
   .main-img{
     position: relative;
     left: 500px;
   }
-  .projects-grid {
-    grid-template-columns: 1fr;
-    position: relative;
-    left: -200px;
-  }
+
   .contact-section{
     position: relative;
     left: 400px;
@@ -280,19 +273,7 @@ img {
     position: relative;
     left: 400px;
   }
-  .main-img {
-    position: relative;
-    left: 1000px;
-  }
-  
-  .sections {
-    position: relative;
-    left: 300px
-  }
-  .main-img {
-    position: relative;
-    left: -180px;
-  }
+ 
   p {
     width: 400px;
   }
@@ -312,5 +293,11 @@ img {
     float: left;
     width: 20%;
   }
-  
+  .sections {
+    text-align: center;
+    padding-top: 6%;
+    color:#77999c;
+    text-align: center;
+    font-size: 20px;
+  }
 }
